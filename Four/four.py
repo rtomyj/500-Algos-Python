@@ -10,7 +10,7 @@ for value in items:
 		rightMostItems.append(value)
 
 '''
-	extends() is faster than iterating and adding the values individually in test cases
+	extend() is faster than iterating and adding the values individually in test cases
 '''
 leftMostItems.extend(rightMostItems)
 print(leftMostItems)
