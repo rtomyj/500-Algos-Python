@@ -1,7 +1,11 @@
+'''
+	Swaps elements of two arrays. Uses the first element of one array an index to get the other element of the other array.
+'''
 def swap_element(x, xInd, y):
 	temp = x[xInd]
 	x[xInd] = y[0]
 	y[0] = temp
+
 
 '''
 	Uses thefact that y is always sorted to keep both x and y sorted.
