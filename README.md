@@ -1,312 +1,314 @@
-  1. Find pair with given sum in the array
+#Arrays
 
-  2. Check if subarray with 0 sum is exists or not
+1. Find pair with given sum in the array
 
-  3. Print all sub-arrays with 0 sum
+2. Check if subarray with 0 sum is exists or not
 
-  4. Sort binary array in linear time
+3. Print all sub-arrays with 0 sum
 
-  5. Find a duplicate element in a limited range array
+4. Sort binary array in linear time
 
-  6. Find largest sub-array formed by consecutive integers
+5. Find a duplicate element in a limited range array
 
-  7. Find maximum length sub-array having given sum
+6. Find largest sub-array formed by consecutive integers
 
-  8. Find maximum length sub-array having equal number of 0âs and 1âs
+7. Find maximum length sub-array having given sum
 
-  9. Sort an array containing 0âs, 1âs and 2âs (Dutch national flag problem)
+8. Find maximum length sub-array having equal number of 0's and 1's
 
- 10. Inplace merge two sorted arrays
+9. Sort an array containing 0's, 1's and 2's (Dutch national flag problem)
 
- 11. Merge two arrays by satisfying given constraints
+10. Inplace merge two sorted arrays
 
- 12. Find index of 0 to replaced to get maximum length sequence of continuous ones
+11. Merge two arrays by satisfying given constraints
 
- 13. Find maximum product of two integers in an array
+12. Find index of 0 to replaced to get maximum length sequence of continuous ones
 
- 14. Shuffle a given array of elements (FisherâYates shuffle)
+13. Find maximum product of two integers in an array
 
- 15. Rearrange the array with alternate high and low elements
+14. Shuffle a given array of elements (Fisher-Yates shuffle)
 
- 16. Find equilibrium index of an array
+15. Rearrange the array with alternate high and low elements
 
- 17. Find majority element in an array (BoyerâMoore majority vote algorithm)
+16. Find equilibrium index of an array
 
- 18. Move all zeros present in the array to the end
+17. Find majority element in an array (Boyer-Moore majority vote algorithm)
 
- 19. Replace each element of array with product of every other element without using / operator
+18. Move all zeros present in the array to the end
 
- 20. Find Longest Bitonic Subarray in an array
+19. Replace each element of array with product of every other element without using / operator
 
- 21. Find maximum difference between two elements in the array by satisfying given constraints
+20. Find Longest Bitonic Subarray in an array
 
- 22. Maximum subarray problem (Kadaneâs algorithm)
+21. Find maximum difference between two elements in the array by satisfying given constraints
 
- 23. Print continuous subarray with maximum sum
+22. Maximum subarray problem (Kadane's algorithm)
 
- 24. Maximum Sum Circular Subarray
+23. Print continuous subarray with maximum sum
 
- 25. Find all distinct combinations of given length
+24. Maximum Sum Circular Subarray
 
- 26. Find all distinct combinations of given length with repetition allowed
+25. Find all distinct combinations of given length
 
- 27. Find maximum sequence of continuous 1âs formed by replacing at-most k zeroes by ones
+26. Find all distinct combinations of given length with repetition allowed
 
- 28. Find minimum sum subarray of given size k
+27. Find maximum sequence of continuous 1's formed by replacing at-most k zeroes by ones
 
- 29. Find subarray having given sum in given array of integers
+28. Find minimum sum subarray of given size k
 
- 30. Find the length of smallest subarray whose sum of elements is greater than the given number
+29. Find subarray having given sum in given array of integers
 
- 31. Find largest number possible from set of given numbers
+30. Find the length of smallest subarray whose sum of elements is greater than the given number
 
- 32. Find the smallest window in array sorting which will make the entire array sorted
+31. Find largest number possible from set of given numbers
 
- 33. Find maximum sum path involving elements of given arrays
+32. Find the smallest window in array sorting which will make the entire array sorted
 
- 34. Maximum profit earned by buying and selling shares any number of times
+33. Find maximum sum path involving elements of given arrays
 
- 35. Trapping Rain Water within given set of bars
+34. Maximum profit earned by buying and selling shares any number of times
 
- 36. Longest Increasing Subsequence
+35. Trapping Rain Water within given set of bars
 
- 37. Longest Decreasing Subsequence Problem
+36. Longest Increasing Subsequence
 
- 38. Find maximum product subarray in a given array
+37. Longest Decreasing Subsequence Problem
 
- 39. Find maximum sum of subsequence with no adjacent elements
+38. Find maximum product subarray in a given array
 
- 40. Find minimum platforms needed in the station so to avoid any delay in arrival of any train
+39. Find maximum sum of subsequence with no adjacent elements
 
- 41. Decode the array constructed from another array
+40. Find minimum platforms needed in the station so to avoid any delay in arrival of any train
 
- 42. Sort an array using one swap
+41. Decode the array constructed from another array
 
- 43. Find Triplet with given sum in an array
+42. Sort an array using one swap
 
- 44. Length of longest continuous sequence with same sum in given binary arrays
+43. Find Triplet with given sum in an array
 
- 45. Rearrange array such that A[A[i]] is set to i for every element A[i]
+44. Length of longest continuous sequence with same sum in given binary arrays
 
- 46. Reverse every consecutive m elements of the given subarray
+45. Rearrange array such that A[A[i]] is set to i for every element A[i]
 
- 47. Maximum Product Subset Problem
+46. Reverse every consecutive m elements of the given subarray
 
- 48. Find pairs with given difference k in the array
+47. Maximum Product Subset Problem
 
- 49. Find pairs with given difference k in the array | Constant space solution
+48. Find pairs with given difference k in the array
 
- 50. 4 sum problem | Quadruplets with given sum
+49. Find pairs with given difference k in the array | Constant space solution
 
- 51. Print all quadruplets with given sum | 4-sum problem extended
+50. 4 sum problem | Quadruplets with given sum
 
- 52. Find odd occurring element in an array in single traversal
+51. Print all quadruplets with given sum | 4-sum problem extended
 
- 53. Find two odd occurring element in an array without using any extra space
+52. Find odd occurring element in an array in single traversal
 
- 54. Quickselect Algorithm
+53. Find two odd occurring element in an array without using any extra space
 
- 55. Print all Triplets that forms Arithmetic Progression
+54. Quickselect Algorithm
 
- 56. Print all triplets that forms Geometric Progression
+55. Print all Triplets that forms Arithmetic Progression
 
- 57. Print all combination of numbers from 1 to n having sum n
+56. Print all triplets that forms Geometric Progression
 
- 58. Replace each element of the array by its corresponding rank in the array
+57. Print all combination of numbers from 1 to n having sum n
 
- 59. Print all Triplets in an array with sum less than or equal to given number
+58. Replace each element of the array by its corresponding rank in the array
 
- 60. Group elements of an array based on their first occurrence
+59. Print all Triplets in an array with sum less than or equal to given number
 
- 61. Find minimum difference between index of two given elements present in the array
+60. Group elements of an array based on their first occurrence
 
- 62. Find maximum absolute difference between sum of two non-overlapping sub-arrays
+61. Find minimum difference between index of two given elements present in the array
 
- 63. Find all Symmetric Pairs in an Array of Pairs
+62. Find maximum absolute difference between sum of two non-overlapping sub-arrays
 
- 64. Partition an array into two sub-arrays with the same sum
+63. Find all Symmetric Pairs in an Array of Pairs
 
- 65. Find count of distinct elements in every sub-array of size k
+64. Partition an array into two sub-arrays with the same sum
 
- 66. Find two numbers with maximum sum formed by array digits
+65. Find count of distinct elements in every sub-array of size k
 
- 67. Print all sub-arrays of an array having distinct elements
+66. Find two numbers with maximum sum formed by array digits
 
- 68. Find a Triplet having Maximum Product in an Array
+67. Print all sub-arrays of an array having distinct elements
 
- 69. Find ways to calculate a target from elements of specified array
+68. Find a Triplet having Maximum Product in an Array
 
- 70. Find Minimum Index of Repeating Element in an Array
+69. Find ways to calculate a target from elements of specified array
 
- 71. Generate Random Input from an Array according to given Probabilities
+70. Find Minimum Index of Repeating Element in an Array
 
- 72. Find pair in an array having minimum absolute sum
+71. Generate Random Input from an Array according to given Probabilities
 
- 73. Find Index of Maximum Occurring Element with Equal Probability
+72. Find pair in an array having minimum absolute sum
 
- 74. Check if an Array is Formed by Consecutive Integers
+73. Find Index of Maximum Occurring Element with Equal Probability
 
- 75. Find two non-overlapping pairs having same sum in an array
+74. Check if an Array is Formed by Consecutive Integers
 
- 76. Find Minimum Product among all Combinations of Triplets in an Array
+75. Find two non-overlapping pairs having same sum in an array
 
- 77. Replace every element of an array with the least greater element on its right
+76. Find Minimum Product among all Combinations of Triplets in an Array
 
- 78. Find all odd occurring elements in an array having limited range of elements
+77. Replace every element of an array with the least greater element on its right
 
- 79. Add elements of two arrays into a new array
+78. Find all odd occurring elements in an array having limited range of elements
 
- 80. Count the distinct absolute values in the sorted array
+79. Add elements of two arrays into a new array
 
- 81. Print all combinations of positive integers in increasing order that sum to a given number
+80. Count the distinct absolute values in the sorted array
 
- 82. Find all distinct combinations of given length - Part 2
+81. Print all combinations of positive integers in increasing order that sum to a given number
 
- 83. Find subarrays with given sum in an array
+82. Find all distinct combinations of given length - Part 2
 
- 84. Find the surpasser count for each element of an array
+83. Find subarrays with given sum in an array
 
- 85. Find maximum length sequence of continuous ones (Using Sliding Window)
+84. Find the surpasser count for each element of an array
 
- 86. Find maximum length sequence of continuous ones
+85. Find maximum length sequence of continuous ones (Using Sliding Window)
 
- 87. Merging Overlapping Intervals
+86. Find maximum length sequence of continuous ones
 
- 88. Activity Selection Problem
+87. Merging Overlapping Intervals
 
- 89. Job Sequencing Problem with Deadlines
+88. Activity Selection Problem
 
- 90. Introduction to Priority Queues using Binary Heaps
+89. Job Sequencing Problem with Deadlines
 
- 91. Min Heap and Max Heap Implementation in C++
+90. Introduction to Priority Queues using Binary Heaps
 
- 92. Min Heap and Max Heap Implementation in Java
+91. Min Heap and Max Heap Implementation in C++
 
- 93. Heap Sort (Out-of-place and In-place implementation in C++ and C)
+92. Min Heap and Max Heap Implementation in Java
 
- 94. Check if given array represents min heap or not
+93. Heap Sort (Out-of-place and In-place implementation in C++ and C)
 
- 95. Convert Max Heap to Min Heap in linear time
+94. Check if given array represents min heap or not
 
- 96. Find Kâth largest element in an array
+95. Convert Max Heap to Min Heap in linear time
 
- 97. Sort a K-Sorted Array
+96. Find K'th largest element in an array
 
- 98. Merge M sorted lists of variable length
+97. Sort a K-Sorted Array
 
- 99. Find Kâth smallest element in an array
+98. Merge M sorted lists of variable length
 
-100. Find smallest range with at-least one element from each of the given lists
+99. Find K'th smallest element in an array
 
-101. Merge M sorted lists each containing N elements
+100.Find smallest range with at-least one element from each of the given lists
 
-102. Insertion sort | Iterative & Recursive
+101.Merge M sorted lists each containing N elements
 
-103. Selection sort | Iterative & Recursive
+102.Insertion sort | Iterative & Recursive
 
-104. Bubble sort | Iterative & Recursive
+103.Selection sort | Iterative & Recursive
 
-105. Merge Sort
+104.Bubble sort | Iterative & Recursive
 
-106. Quicksort
+105.Merge Sort
 
-107. Iterative Implementation of Quicksort
+106.Quicksort
 
-108. Hybrid QuickSort
+107.Iterative Implementation of Quicksort
 
-109. Quicksort using Dutch National Flag Algorithm
+108.Hybrid QuickSort
 
-110. Quick Sort using Hoareâs Partitioning scheme
+109.Quicksort using Dutch National Flag Algorithm
 
-111. External merge sort
+110.Quick Sort using Hoare's Partitioning scheme
 
-112. Custom Sort | Sort elements by their frequency and Index
+111.External merge sort
 
-113. Custom Sort | Sort elements of the array by order of elements defined by the second array
+112.Custom Sort | Sort elements by their frequency and Index
 
-114. Inversion Count of an array
+113.Custom Sort | Sort elements of the array by order of elements defined by the second array
 
-115. Segregate positive and negative integers in linear time
+114.Inversion Count of an array
 
-116. Binary Search
+115.Segregate positive and negative integers in linear time
 
-117. Ternary Search vs Binary search
+116.Binary Search
 
-118. Interpolation search
+117.Ternary Search vs Binary search
 
-119. Exponential search
+118.Interpolation search
 
-120. Find number of rotations in a circularly sorted array
+119.Exponential search
 
-121. Search an element in a circular sorted array
+120.Find number of rotations in a circularly sorted array
 
-122. Find first or last occurrence of a given number in a sorted array
+121.Search an element in a circular sorted array
 
-123. Count occurrences of a number in a sorted array with duplicates
+122.Find first or last occurrence of a given number in a sorted array
 
-124. Find smallest missing element from a sorted array
+123.Count occurrences of a number in a sorted array with duplicates
 
-125. Find Floor and Ceil of a number in a sorted array
+124.Find smallest missing element from a sorted array
 
-126. Search in a nearly sorted array in O(logn) time
+125.Find Floor and Ceil of a number in a sorted array
 
-127. Find number of 1âs in a sorted binary array
+126.Search in a nearly sorted array in O(logn) time
 
-128. Find the peak element in an array
+127.Find number of 1's in a sorted binary array
 
-129. Maximum Sum Subarray using Divide & Conquer
+128.Find the peak element in an array
 
-130. Find Minimum and Maximum element in an array using minimum comparisons
+129.Maximum Sum Subarray using Divide & Conquer
 
-131. Matrix Chain Multiplication
+130.Find Minimum and Maximum element in an array using minimum comparisons
 
-132. 0-1 Knapsack problem
+131.Matrix Chain Multiplication
 
-133. Maximize value of the expression
+132.0-1 Knapsack problem
 
-134. Partition problem
+133.Maximize value of the expression
 
-135. Subset sum problem
+134.Partition problem
 
-136. Minimum Sum Partition problem
+135.Subset sum problem
 
-137. Rod Cutting
+136.Minimum Sum Partition problem
 
-138. Coin change-making problem (unlimited supply of coins)
+137.Rod Cutting
 
-139. Coin Change Problem (Total number of ways to get the denomination of coins)
+138.Coin change-making problem (unlimited supply of coins)
 
-140. Longest alternating subsequence
+139.Coin Change Problem (Total number of ways to get the denomination of coins)
 
-141. Combinations of words formed by replacing given numbers with corresponding alphabets
+140.Longest alternating subsequence
 
-142. Decode the given sequence to construct minimum number without repeated digits
+141.Combinations of words formed by replacing given numbers with corresponding alphabets
 
-143. All combinations of elements satisfying given constraints
+142.Decode the given sequence to construct minimum number without repeated digits
 
-144. Find Missing Term in a Sequence in log(n) time
+143.All combinations of elements satisfying given constraints
 
-145. Print all distinct Subsets of a given Set
+144.Find Missing Term in a Sequence in log(n) time
 
-146. Find Floor and Ceil of a number in a sorted array (Recursive solution)
+145.Print all distinct Subsets of a given Set
 
-147. Set both elements of a binary array to 0 in single line
+146.Find Floor and Ceil of a number in a sorted array (Recursive solution)
 
-148. K-Partition Problem | Printing all Partitions
+147.Set both elements of a binary array to 0 in single line
 
-149. 3 Partition Problem
+148.K-Partition Problem | Printing all Partitions
 
-150. 3-partition problem extended | Print all partitions
+149.3 Partition Problem
 
-151. Iterative Merge Sort Algorithm (Bottom-up Merge Sort)
+150.3-partition problem extended | Print all partitions
 
-152. Find two duplicate elements in an limited range array (using XOR)
+151.Iterative Merge Sort Algorithm (Bottom-up Merge Sort)
 
-153. Find missing number and duplicate elements in an array
+152.Find two duplicate elements in an limited range array (using XOR)
 
-154. Find Minimum and Maximum element in an array by doing minimum comparisons
+153.Find missing number and duplicate elements in an array
 
-155. Find Frequency of each element in a sorted array containing duplicates
+154.Find Minimum and Maximum element in an array by doing minimum comparisons
 
-156. Difference between Subarray, Subsequence and Subset
+155.Find Frequency of each element in a sorted array containing duplicates
+
+156.Difference between Subarray, Subsequence and Subset
 
