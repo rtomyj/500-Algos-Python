@@ -2,7 +2,7 @@ Algorithms can be found here: https://techiedelight.quora.com/500-Data-Structure
 
 # Arrays
 
-1. Find pair with given sum in the array
+#### **1. Find pair with given sum in the array**
 
 Find a sum of two numbers in an unordered array.
 
@@ -10,11 +10,11 @@ Find a sum of two numbers in an unordered array.
 
 3. Print all sub-arrays with 0 sum
 
-4. Sort binary array in linear time
+#### **4. Sort binary array in linear time**
 
 Sort binary array in constant space and in linear time (will provide a constant space soln and non constant space soln)
 
-5. Find a duplicate element in a limited range array
+#### **5. Find a duplicate element in a limited range array**
 
 Find dup value in an array of size n. There will only be one dup value.
 
@@ -26,7 +26,7 @@ Find dup value in an array of size n. There will only be one dup value.
 
 9. Sort an array containing 0's, 1's and 2's (Dutch national flag problem)
 
-10. Inplace merge two sorted arrays
+#### **10. Inplace merge two sorted arrays**
 
 Given two individually sorted arrays, sort arrays so one array has all elements that are less than all elements in the second array and both arrays are sorted.
 
