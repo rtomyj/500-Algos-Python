@@ -34,7 +34,9 @@ Eg. [1, 3, 5] [2, 4]
 
 Becomes [1, 2, 3] [4, 5]
 
-11. Merge two arrays by satisfying given constraints
+#### **11. Merge two arrays by satisfying given constraints**
+
+Given two sorted arrays x and y where x has a size of M and y has a size of N and x has exactly N vacant spots, merge the two arrays.
 
 12. Find index of 0 to replaced to get maximum length sequence of continuous ones
 
