@@ -1,30 +1,40 @@
 x = [0, 2, 0, 3, 0, 5, 6, 0, 0]
 y = [1, 8, 9, 10, 15]
 
-yInd = 0
 emptyCells = []
-for xInd, xEle in enumerate(x):
+xInd = 0
+yInd = 0
+
+while yInd < len(y):
+	if xInd == len(x):
+		x[emptyCells[0]] = y[yInd]
+		emptyCells = emptyCells[1:]
+		yInd += 1
+		continue
+
+	xEle = x[xInd]
+	yEle = y[yInd]
+
 	if xEle == 0:
 		emptyCells.append(xInd)
+		xInd += 1
 	else:
-		if xEle > y[yInd]:
-			if len(emptyCells) == 0:
-				temp = x[xInd]
-				x[xInd] = y[yInd]
-				y[yInd] = temp
-			# if there are no empty slots traversed previously but the xEle > yEle, swap the two elements
-			else:
-				x[emptyCells[0]] = y[yInd]
+		if xEle > yEle:
+			if len(emptyCells) > 0:
+				x[emptyCells[0]] = yEle
+				emptyCells = emptyCells[1:]
 				yInd += 1
+			else:
+				x[xInd] = yEle
+				y[yInd] = xEle
+				xInd += 1
 		else:
-			x[emptyCells[0]] = xEle
-			emptyCells.append(xInd)
-
-		emptyCells = emptyCells[1:]
-
-for yInd in range(yInd, len(y)):
-	x[emptyCells[0]] = y[yInd]
-	emptyCells = emptyCells[1:]
+			if len(emptyCells) > 0:
+				x[emptyCells[0]] = xEle
+				x[xInd] = 0
+				emptyCells = emptyCells[1:]
+				emptyCells.append(xInd)
+			xInd += 1
 
 
 print(x)
