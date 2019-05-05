@@ -11,9 +11,11 @@
 	Obviously the greatest sub array with even number of 0's and 1's of the above sequence
 	is [0, 1, 1, 0, 1, 0]. Drawing the graph we get
 
-		 | | | |#| |#| |
-		 |#| |#|#|#|#|#|
-		-------------
+		3
+		2		| | | |#| |#| |
+		1		|#| |#|#|#|#|#|
+		0		-------------
+		-1
 
 	The y value of index 1 is 0 and the y value of index 6 is 1... Connecting the points we get a change of 1.
 	Not quite what we wanted. But index 0 has a y value of 1 which is a pattern we can use.
@@ -42,13 +44,15 @@ def get_max_len_subarr(items):
 		original array.
 		If right most occurence is -1 it means there was not right most occurence for given sum.
 	'''
-	maxGap = 0
-	for key, val in SUM_maps_LEFT_RIGHT_OCCURANCE.items():
-		if val[1] != -1 and val[1] - val[0] > maxGap:
-			maxGap = val[1] - val[0]
-			left, right = SUM_maps_LEFT_RIGHT_OCCURANCE[key][0], SUM_maps_LEFT_RIGHT_OCCURANCE[key][1]
+	maxLen = 0
+	for leftRight in SUM_maps_LEFT_RIGHT_OCCURANCE.values():
+		if leftRight[1] != -1 and leftRight[1] - leftRight[0] > maxLen:
+			maxLen = leftRight[1] - leftRight[0]
+			left, right = leftRight[0], leftRight[1]
 	print(items[left: right])
 
 
-list = [0, 1, 1, 0, 1, 0]
-get_max_len_subarr(list)
+items = [1, 0, 1, 1, 0, 1, 0]
+get_max_len_subarr(items)
+items = [0, 0, 1, 0, 1, 0, 0]
+get_max_len_subarr(items)
