@@ -35,7 +35,8 @@ def get_max_len_subarr(items):
 			# the y value was not put in graph yet - add it (offset of 1 explained above)
 			SUM_maps_LEFT_RIGHT_OCCURANCE[sum] = [ind + 1, -1]
 		else:
-			# the y value was seen already - update the right most occurence of it (offset of 1 since we need to inclde ind in range)
+			# the y value was seen already - update the right most occurence of it (offset of 1 since we need to inclde ind in
+			# range)
 			SUM_maps_LEFT_RIGHT_OCCURANCE[sum][1] = ind + 1
 
 	'''
@@ -49,10 +50,11 @@ def get_max_len_subarr(items):
 		if leftRight[1] != -1 and leftRight[1] - leftRight[0] > maxLen:
 			maxLen = leftRight[1] - leftRight[0]
 			left, right = leftRight[0], leftRight[1]
-	print(items[left: right])
+
+	return items[left: right]
 
 
 items = [1, 0, 1, 1, 0, 1, 0]
-get_max_len_subarr(items)
+print(get_max_len_subarr(items))
 items = [0, 0, 1, 0, 1, 0, 0]
-get_max_len_subarr(items)
+print(get_max_len_subarr(items))
