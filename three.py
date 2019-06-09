@@ -75,7 +75,7 @@
 '''
 	Finds all sub array with zero sum for a given sequence and returns an array of arrays with all sub arrays.
 '''
-def find_zero_sum(items):
+def get_zero_sums(items):
 	graphs = []	# each index will be graph X and each value will be sum at given index for graph X (see above)
 	zeroSums = []	# array holding all sub arrays with 0 graphs
 
@@ -104,6 +104,6 @@ def find_zero_sum(items):
 	return zeroSums
 
 items = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2]
-zeroSum = find_zero_sum(items)
+zeroSum = get_zero_sums(items)
 print('All sub arrays with zero sum are:')
 print(zeroSum)
